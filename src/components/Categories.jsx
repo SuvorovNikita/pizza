@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Categories({ items, onClickItem }) {
-  //Filter
   const [activeItem, setActiveItem] = React.useState(null);
 
   const onSelectItem = (index) => {
