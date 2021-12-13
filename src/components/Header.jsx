@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '../assets/img/pizza-logo.svg';
-import { Button } from './index';
+import logoSvg from '../assets/img/pizza-logo.svg';
+import Button from './Button';
 
 function Header() {
   return (
@@ -10,17 +10,18 @@ function Header() {
       <div className="container">
         <Link to="/">
           <div className="header__logo">
-            <img width="38" src={logo} alt="Pizza logo" />
+            <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
               <h1>Pizza</h1>
               <p>самая вкусная пицца во вселенной</p>
             </div>
           </div>
         </Link>
+
         <div className="header__cart">
           <Link to="/cart">
             <Button className="button--cart">
-              <span>520 ₽</span>
+              <span>555 ₽</span>
               <div className="button__delimiter"></div>
               <svg
                 width="18"
