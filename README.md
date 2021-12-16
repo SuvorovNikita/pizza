@@ -1,16 +1,14 @@
-### `npm start`
+Интернет-магазин по заказу пиццы - **React Pizza**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Плейлист с полным курсом на YouTube](https://www.youtube.com/watch?v=bziVFvq8cLQ&list=PL0FGkDGJQjJFMRmP7wZ771m1Nx-m2_qXq)
+- [Как задеплоить React Pizza на бесплатный хостинг](https://www.youtube.com/watch?v=-pJN9faoa8E&t=1951s)
 
 **Stack:**
 
 - ReactJS + хуки
 - React Router
-- Axios
-- SCSS
-- React Skeleton
 - Redux
+- Redux thunk
+- json-server
+- Axios
+- classnames
